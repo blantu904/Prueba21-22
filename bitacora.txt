@@ -1,13 +1,25 @@
 Noelia Blanco Turanzas
 
+
 PASO                   COMANDO               NOTAS
 01                     clone [url]
 02                     Branch Paco
 03                     Branch Lola
 04                     checkout Paco
-13               stash + checkout main
+06                    add bitácora.txt
+07                     commit -m "Paso 07"
+08                     checkout Lola
+10                     add bitácora.txt
+11                    commit -m "Paso 11"
+13                     stash + checkout main
 14                     Fast forward 
 16                     add bitácora.txt
 17                   commit -m "Paso 17"
 18                   merge --no-ff Paco      Recursiva
- 
+                     editar bitácora.txt
+                     add + commit
+20                   add bitácora.txt
+21                     commit -m "Paso 21"
+22                   checkout Lola
+23                      stash apply
+
