@@ -1,1 +1,7 @@
+Noelia Blanco Turanzas
 
+PASO                   COMANDO               NOTAS
+01                     clone [url]
+02                     Branch Paco
+03                     Branch Lola
+04                     checkout Paco
