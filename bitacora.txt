@@ -22,4 +22,10 @@ PASO                   COMANDO               NOTAS
 21                     commit -m "Paso 21"
 22                   checkout Lola
 23                      stash apply
+25                   add bitácora.txt
+26                    commit -m "Paso 26"
+27                     checkout main
+28                     merge --no-ff Lola       Recursiva
+                       editar bitácora.txt
+			add + commit
 
